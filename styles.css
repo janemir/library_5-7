@@ -166,3 +166,59 @@ footer {
     background-color: #45a049;
 }
 
+/* Секция корзины */
+#cart-container {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+#cart-container .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart-container .cart-item h4 {
+    margin: 0;
+    font-size: 1em;
+}
+
+#cart-container .cart-item .remove-item {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#cart-container .cart-item .remove-item:hover {
+    background-color: #e53935;
+}
+
+#cart-summary {
+    margin-top: 15px;
+    text-align: right;
+}
+
+#clear-cart {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#clear-cart:hover {
+    background-color: #e53935;
+}
+
