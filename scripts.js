@@ -77,3 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Добавление в корзину
+document.querySelectorAll('.add-to-cart').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('Книга добавлена в корзину!');
+    });
+});
+
